@@ -7,7 +7,7 @@
 git clone https://github.com/QiuSimons/YAOF.git
 cd YAOF
 git clone https://github.com/V1Eerie/OPconfigR3s.git
-cp ./OPconfigR3s/S* ./
+cp -r ./OPconfigR3s/S* ./
 ```
 
 ### 2. Initialize Build Dependencies
