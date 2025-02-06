@@ -4,9 +4,9 @@
 
 ### 1. Clone Repositories
 ```bash
-git clone https://github.com/QiuSimons/YAOF
+git clone https://github.com/QiuSimons/YAOF.git
 cd YAOF
-git clone https://github.com/V1Eerie/OPconfigR3s
+git clone https://github.com/V1Eerie/OPconfigR3s.git
 cp ./OPconfigR3s/S* ./
 ```
 
