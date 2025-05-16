@@ -34,8 +34,7 @@ jobs:
       run: |
         git clone https://github.com/QiuSimons/YAOF.git
         cd YAOF
-        git clone https://github.com/V1Eerie/OPconfigR3s.git
-        cp -r ./OPconfigR3s/S* ./
+        cp -r ../S* ./
 
     - name: Install Dependencies
       env:
