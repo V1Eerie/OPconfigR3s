@@ -147,7 +147,7 @@ jobs:
         tag: ${{ env.latest_release }}
         commit: "24.10"
         replacesArtifacts: true
-        token: ${{ secrets.GITHUB_TOKEN }}
+        token: ${{ secrets.GH_TOKEN }}
         artifacts: ./artifact/*.zip
 
     - name: Disk Space After
